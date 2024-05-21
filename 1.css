@@ -1,0 +1,21 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgb(85, 188, 83);
+}
+canvas {
+	border: 4px solid rgb(255, 0, 0); /* Updated border for the game */
+}
+#score {
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 24px;
+	font-family: 'Arial', sans-serif;
+}
